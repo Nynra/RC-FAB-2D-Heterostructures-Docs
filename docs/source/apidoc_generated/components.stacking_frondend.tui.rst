@@ -2,7 +2,7 @@ stacking\_frondend.tui package
 =========================================================
 
 stacking\_frondend.tui.main module
--------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. automodule:: stacking_setup.components.stacking_frondend.tui.main
    :members:

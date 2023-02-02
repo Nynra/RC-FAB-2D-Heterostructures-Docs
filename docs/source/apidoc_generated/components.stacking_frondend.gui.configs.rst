@@ -1,10 +1,10 @@
 stacking\_frondend.gui.configs package
 =================================================================
 
-stacking\_frondend.gui.configs.settings module
--------------------------------------------------------------------------
+stacking\_frondend.gui.configs.gui_settings module
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. automodule:: stacking_setup.components.stacking_frondend.gui.configs.settings
+.. automodule:: stacking_setup.components.stacking_frondend.gui.configs.gui_settings
    :members:
    :undoc-members:
    :show-inheritance:

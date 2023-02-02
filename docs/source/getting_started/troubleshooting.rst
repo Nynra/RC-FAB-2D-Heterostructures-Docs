@@ -12,25 +12,20 @@ On windows
 python3.exe -m pip install --upgrade pip
 ```
 
-On Linux
-```
-python3 -m pip install --upgrade pip
-```
-
 2. Make sure the wheel library is installed. This should be installed by default but if not it can be installed using the following line
 ```
-python3 -m pip install wheel
+python3.exe -m pip install wheel
 ```
 
 Starting the system
 ^^^^^^^^^^^^^^^^^^^^^^^^
 If you have problems starting the instrument this can have multiple causes. The most common are:
-1. Not all the hardware is active. This can be fixed by setting the Enabled boolean in the hardware config to True.
-2. Not all the hardware powered on.
-3. The hardware is not connected to the computer.
-4. The software is broken. If this is the case this can be a bit hard to fix, for this purpose the package contains several test suites
+* Not all the hardware is active. This can be fixed by setting the Enabled boolean in the hardware config file to True.
+* Not all the hardware powered on.
+* The hardware is not connected to the computer.
+* The software is broken. If this is the case this can be a bit hard to fix, for this purpose the package contains several test suites
 to test the backend functionality.
 
 .. warning::
     The test suite only test the software and are built as units as much as possible. This means that if there is a hardware problem
-    (like a loose usb connection) the test suite will not be able to detect this and still pass.
+    (like a loose usb connection) the test suite will not be able to detect this and the tests will still pass.

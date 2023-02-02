@@ -8,7 +8,7 @@
 
 # Add the package directory to the path so that we can import the package
 import os, sys
-sys.path.insert(0, os.path.abspath('..\..\src'))
+sys.path.insert(0, os.path.abspath('..\..\RC-FAB-2D-Heterostructures\src'))
 
 project = 'LION Van der Waals Stacking Facility: Stacking setup'
 copyright = '2022, Nynra'
@@ -76,17 +76,13 @@ latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
     'papersize': 'a4paper',
-    'releasename':"Version 0.0.2",
-    # Sonny, Lenny, Glenn, Conny, Rejne, Bjarne and Bjornstrup
-    # 'fncychap': '\\usepackage[Lenny]{fncychap}',
+    'releasename':"Version 0.0.6",
     'fncychap': '\\usepackage{fncychap}',
     'fontpkg': '\\usepackage{amsmath,amsfonts,amssymb,amsthm}',
     'figure_align':'htbp',
     # The font size ('10pt', '11pt' or '12pt').
-    #
     'pointsize': '10pt',
     # Additional stuff for the LaTeX preamble.
-    #
     'preamble': r'''
     %% %% %% %% %% %% %% %% %% %% Meher %% %% %% %% %% %% %% %% %%
     %% %add number to subsubsection 2=subsection, 3=subsubsection
@@ -166,8 +162,8 @@ latex_elements = {
     \includegraphics[scale=0.3]{lion_logo_blue1800x1080.jpg}
     \end{figure}
     \vspace{0mm}
-    \Large \textbf{{Meher Krishna Patel}}
-    \small Created on : Octorber, 2017
+    \Large \textbf{{Custom stacking system}}
+    \small Created on : January 2023
     \vspace*{0mm}
     \small Last updated : \MonthYearFormat\today
     %% \vfill adds at the bottom
@@ -203,34 +199,5 @@ latex_logo = '_static/lion_logo_blue1800x1080.jpg'
 # author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'main.tex', 'Sphinx format for Latex and HTML',
-    'Meher Krishna Patel', 'report')
+    'B. Klein Ikkink', 'Documentation')
     ]
-
-# -- Options for Epub output ----------------------------------------------
-# Bibliographic Dublin Core info.
-#epub_title = project
-#epub_author = author
-#epub_publisher = author
-#epub_copyright = copyright
-
-# The unique identifier of the text. This can be a ISBN number
-# or the project homepage.
-#
-# epub_identifier = ''
-# A unique identification for the text.
-#
-# epub_uid = ''
-# A list of files that should not be packed into the epub file.
-#epub_exclude_files = ['search.html']
-
-# Example configuration for intersphinx: refer to the Python standard library.
-#intersphinx_mapping = {'https://docs.python.org/': None}
-#def setup(app):
-#    app.add_stylesheet('custom.css') # remove line numbers
-#    app.add_javascript('copybutton.js') # show/hide prompt >>>
-
-# use :numref: for references (instead of :ref:)
-#numfig = True
-#smart_quotes = False
-#html_use_smartypants = False
-#html_theme = 'sphinx_rtd_theme'

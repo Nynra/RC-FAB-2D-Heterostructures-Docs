@@ -17,9 +17,9 @@ Subpackages
 .. toctree::
    :maxdepth: 2
 
-   stacking_setup.components.stacking_backend.components
-   stacking_setup.components.stacking_backend.configs
-   stacking_setup.components.stacking_backend.controllers
+   components.stacking_backend.components
+   components.stacking_backend.configs
+   components.stacking_backend.controllers
 
 Submodules
 ----------
@@ -39,7 +39,7 @@ stacking\_backend.catch\_remote\_exceptions module
    :show-inheritance:
 
 stacking\_backend.exceptions module
---------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. automodule:: stacking_setup.components.stacking_backend.exceptions
    :members:
@@ -47,23 +47,15 @@ stacking\_backend.exceptions module
    :show-inheritance:
 
 stacking\_backend.gcode\_parser module
-----------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. automodule:: stacking_setup.components.stacking_backend.gcode_parser
    :members:
    :undoc-members:
    :show-inheritance:
 
-stacking\_backend.repeated\_timer module
--------------------------------------------------------------------
-
-.. automodule:: stacking_setup.components.stacking_backend.repeated_timer
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
 stacking\_backend.stacking\_setup module
--------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. automodule:: stacking_setup.components.stacking_backend.stacking_setup
    :members:

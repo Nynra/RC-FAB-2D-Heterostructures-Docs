@@ -16,21 +16,22 @@ All of the hardware control takes place in the backend components, all interacti
 Getting started
 ---------------
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   getting_started/getting_started
-   getting_started/gotchas
+   getting_started/installation
+   getting_started/configuration
+   getting_started/programming_guidelines
    getting_started/troubleshooting
-   changelog
-   apidoc_generated/modules
 
 Library contents
 ----------------
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
 
-   apidoc_generated/stacking_setup.components
-
+   apidoc_generated/components.stacking_frondend
+   apidoc_generated/components.stacking_middleware
+   apidoc_generated/components.stacking_backend
+   apidoc_generated/tests
 
 Indices and tables
 ==================

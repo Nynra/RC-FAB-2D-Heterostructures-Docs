@@ -2,7 +2,7 @@ stacking\_setup.tests package
 =============================
 
 tests.run\_all\_tests module
---------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. automodule:: stacking_setup.tests.run_all_tests
    :members:
@@ -10,7 +10,7 @@ tests.run\_all\_tests module
    :show-inheritance:
 
 tests.test\_gcode\_parser module
-------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. automodule:: stacking_setup.tests.test_gcode_parser
    :members:
@@ -18,7 +18,7 @@ tests.test\_gcode\_parser module
    :show-inheritance:
 
 tests.test\_middleware module
----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. automodule:: stacking_setup.tests.test_middleware
    :members:
@@ -26,7 +26,7 @@ tests.test\_middleware module
    :show-inheritance:
 
 tests.test\_stacking\_backend module
-----------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. automodule:: stacking_setup.tests.test_stacking_backend
    :members:

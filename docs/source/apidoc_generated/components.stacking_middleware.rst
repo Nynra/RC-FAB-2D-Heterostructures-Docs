@@ -2,7 +2,7 @@ stacking\_middleware package
 =======================================================
 
 stacking\_middleware.base\_connector module
-----------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. automodule:: stacking_setup.components.stacking_middleware.base_connector
    :members:
@@ -10,7 +10,7 @@ stacking\_middleware.base\_connector module
    :show-inheritance:
 
 stacking\_middleware.message module
---------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. automodule:: stacking_setup.components.stacking_middleware.message
    :members:
@@ -18,7 +18,7 @@ stacking\_middleware.message module
    :show-inheritance:
 
 stacking\_middleware.pipeline\_connection module
----------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. automodule:: stacking_setup.components.stacking_middleware.pipeline_connection
    :members:
@@ -26,7 +26,7 @@ stacking\_middleware.pipeline\_connection module
    :show-inheritance:
 
 stacking\_middleware.serial\_connection module
--------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. automodule:: stacking_setup.components.stacking_middleware.serial_connection
    :members:
