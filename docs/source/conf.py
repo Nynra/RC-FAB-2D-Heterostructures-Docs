@@ -76,7 +76,7 @@ latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
     'papersize': 'a4paper',
-    'releasename':"Version 0.0.6",
+    'releasename':"Version",
     'fncychap': '\\usepackage{fncychap}',
     'fontpkg': '\\usepackage{amsmath,amsfonts,amssymb,amsthm}',
     'figure_align':'htbp',
@@ -136,8 +136,6 @@ latex_elements = {
 
     \RequirePackage{tocbibind} %% % c omment this to remove page number for following
     \addto\captionsenglish{\renewcommand{\contentsname}{Table of contents}}
-    \addto\captionsenglish{\renewcommand{\listfigurename}{List of figures}}
-    \addto\captionsenglish{\renewcommand{\listtablename}{List of tables}}
     % \addto\captionsenglish{\renewcommand{\chaptername}{Chapter}}
     %% reduce spacing for itemize
     \usepackage{enumitem}
@@ -155,7 +153,6 @@ latex_elements = {
     \begin{titlepage}
     \centering
     \vspace*{40mm} %% % * is used to give space from top
-    \textbf{\Huge {Sphinx format for Latex and HTML}}
     \vspace{0mm}
     \begin{figure}[!h]
     \centering
@@ -166,17 +163,11 @@ latex_elements = {
     \small Created on : January 2023
     \vspace*{0mm}
     \small Last updated : \MonthYearFormat\today
-    %% \vfill adds at the bottom
-    \vfill
-    \small \textit{More documents are freely available at }{\href{http://pythondsp.readthedocs.
-    ˓→io/en/latest/pythondsp/toc.html}{PythonDSP}}
     \end{titlepage}
 
     \clearpage
     \pagenumbering{roman}
     \tableofcontents
-    \listoffigures
-    \listoftables
     \clearpage
     \pagenumbering{arabic}
     ''',
@@ -198,6 +189,6 @@ latex_logo = '_static/lion_logo_blue1800x1080.jpg'
 # (source start file, target name, title,
 # author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'main.tex', 'Sphinx format for Latex and HTML',
-    'B. Klein Ikkink', 'Documentation')
+    (master_doc, 'main.tex', 'LION VDWSF Custom stacking system',
+    'B. Klein Ikkink', 'report')
     ]

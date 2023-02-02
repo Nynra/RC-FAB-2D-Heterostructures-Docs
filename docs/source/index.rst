@@ -33,9 +33,3 @@ Library contents
    apidoc_generated/components.stacking_backend
    apidoc_generated/tests
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
